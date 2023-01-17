@@ -1,6 +1,6 @@
 # Particle Jekyll Theme
 
-![](https://github.com/nrandecker/particle.jpg)
+![](https://github.com/nrandecker/particle/particle.jpg)
 
 This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
