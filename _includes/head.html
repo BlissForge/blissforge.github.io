@@ -24,7 +24,7 @@
     .header .site-title {
 	  font-size: 35px;
 	  margin: 0 0 17px 0;
-	  text-shadow: rgb(0 255 255) 1px 1px 0, rgb(0 255 255) 2px 2px 0, rgb(0 255 255) 3px 3px 0, rgb(0 255 255) 4px 4px 0, rgb(0 255 255) 5px 5px 0, rgb(0 255 255) 6px 6px 0;
+	  text-shadow: rgb(0 255 255) 1px 1px 0, rgb(0 255 255) 2px 2px 0, rgb(0 255 255) 3px 3px 0, rgb(0 255 255) 4px 4px 0, rgb(0 255 255) 5px 5px 0, rgb(0 255 255) 6px 6px 0
 	}
 	.header-links {
 	  margin: 5px
@@ -37,14 +37,50 @@
     .header .site-title {
 	  font-size: 70px;
 	  margin: 0 0 22px 0;
-	  text-shadow: rgb(0 255 255) 1px 1px 0, rgb(0 255 255) 2px 2px 0, rgb(0 255 255) 3px 3px 0, rgb(0 255 255) 4px 4px 0, rgb(0 255 255) 5px 5px 0, rgb(0 255 255) 6px 6px 0, rgb(0 255 255) 7px 7px 0, rgb(0 255 255) 8px 8px 0, rgb(0 255 255) 9px 9px 0, rgb(0 255 255) 10px 10px 0;
+	  text-shadow: rgb(0 255 255) 1px 1px 0, rgb(0 255 255) 2px 2px 0, rgb(0 255 255) 3px 3px 0, rgb(0 255 255) 4px 4px 0, rgb(0 255 255) 5px 5px 0, rgb(0 255 255) 6px 6px 0, rgb(0 255 255) 7px 7px 0, rgb(0 255 255) 8px 8px 0, rgb(0 255 255) 9px 9px 0, rgb(0 255 255) 10px 10px 0
 	}
 	.header-links {
 	  margin: 10px
 	}
   }
+  .devicon-sourcetree-plain.colored, .devicon-unity-plain.colored, .devicon-blender-plain.colored {
+    color: #181616
+  }
+  .devicon-sourcetree-plain:before {
+    content: "\EA08"
+  }
+  .devicon-blender-plain:before {
+    content: "\EA27"
+  }
+  .devicon-unity-plain:before {
+    content: "\E92D"
+  }
+  .devicon-visualstudio-plain:before {
+    content: "\E9F8"
+  }
+  .devicon-sourcetree-original:before, .devicon-sourcetree-plain:before {
+    content: "\EA08"
+  }
+  .devicon-github-original:before, .devicon-github-plain:before {
+    content: "\EA10"
+  }
+  .devicon-trello-plain:before {
+    content: "\ebcf";
+    font-size: 96%
+  }
+  .user {
+    font-size: 75px
+  }
+  ol, ul {
+    padding-left: 17px;
+	list-style-type: '\2726';
+	text-indent: 10px
+  }
+  #about, #projects {
+    max-width: 1187px
+  }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  <link rel="shortcut icon" type="image/png" href="assets/img/+favicon.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 </head>
