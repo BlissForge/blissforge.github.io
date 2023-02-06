@@ -92,6 +92,24 @@
   #about, #projects {
     max-width: 1235px
   }
+  span {
+    position: relative
+  }
+  span.overlay:after {
+    content: "\0020";
+    display: block;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 22px;
+    background-image: -webkit-linear-gradient(right, rgba(255,255,255,0.914), rgba(255,255,255,0.914));
+    background-image: -moz-linear-gradient(right, rgba(255,255,255,0.914), rgba(255,255,255,0.914));
+    background-image: -ms-linear-gradient(right, rgba(255,255,255,0.914), rgba(255,255,255,0.914));
+    background-image: -o-linear-gradient(right, rgba(255,255,255,0.914), rgba(255,255,255,0.914));
+    background-image: linear-gradient(right, rgba(255,255,255,0.914), rgba(255,255,255,0.914));
+  }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
