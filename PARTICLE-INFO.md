@@ -1,5 +1,7 @@
 # Particle Jekyll Theme
-
+<picture>
+  <img alt="Image Alt Text" src="http://example.com/path/image">
+</picture>
 [![](https://raw.githubusercontent.com/nrandecker/particle/master/particle.jpg)](#)
 
 This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
