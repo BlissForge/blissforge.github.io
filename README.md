@@ -1,4 +1,4 @@
-# Page (live at BlissForge.com)
+# Page (live at [BlissForge.com](https://blissforge.com/))
 
 This is a GitHub Pages project with a customized (FOSS) Jekyll theme.
 
