@@ -1,4 +1,4 @@
-# BlissForge Local.bat (refresh page if it doesn't load)
+## BlissForge Local.bat (refresh page if it doesn't load)
 
 cd C:\Users\loren\Documents\GitHub Pages\BlissForge.com
 
