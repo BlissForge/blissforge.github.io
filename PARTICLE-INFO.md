@@ -1,7 +1,7 @@
 # Particle Jekyll Theme
 
 <picture>
-  <img alt="Image Alt Text" src="http://example.com/path/image">
+  <img alt="Image Alt Text" src="https://raw.githubusercontent.com/nrandecker/particle/master/particle.jpg">
 </picture>
 
 [![](https://raw.githubusercontent.com/nrandecker/particle/master/particle.jpg)](#)
