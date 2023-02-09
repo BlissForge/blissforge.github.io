@@ -1,3 +1,7 @@
+# Page
+
+This is a GitHub Pages project with a customized Jekyll theme.
+
 ## BlissForge Local.bat (refresh page if it doesn't load)
 
 cd C:\Users\loren\Documents\GitHub Pages\BlissForge.com
