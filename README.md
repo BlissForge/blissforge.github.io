@@ -1,6 +1,6 @@
 # Page (live at BlissForge.com)
 
-This is a GitHub Pages project with a customized Jekyll theme.
+This is a GitHub Pages project with a customized (FOSS) Jekyll theme.
 
 ## BlissForge Local.bat (refresh page if it doesn't load)
 
