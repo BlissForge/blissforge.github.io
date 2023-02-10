@@ -3548,7 +3548,7 @@ sub,sup{
 .user-projects p{
     margin-right:5px
 }
-@media only screen and (min-width:550px){
+/*@media only screen and (min-width:550px){
     .contents{
         margin-left:0;
         width:48%
@@ -3570,7 +3570,7 @@ sub,sup{
     .images-left img{
         float:left
     }
-}
+}*/
 .project-link{
     display:inline-block;
     margin:10px 0;
