@@ -17,6 +17,34 @@
     text-decoration: none;
     position: relative;
   }
+  .header .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+  }
+  .header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .7s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px
+  }
+  .header-links .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px
+  }
+  @media (max-width: 1408px) {
+    .user {
+      flex-direction: column
+    }
+  }
   @media (min-width: 320px) {
     h1 {
 	  margin: .67em 0 .35em 0
@@ -40,7 +68,7 @@
       height: 75px
     }
   }
-  @media (min-width: 801px) {
+  @media (min-width: 813px) {
     h1 {
 	  margin: .67em 0
 	}
@@ -49,6 +77,17 @@
 	  margin: 0 0 22px 0;
 	  text-shadow: rgb(255 255 255) 0.5px 0.5px 8px, rgb(0 255 255) 1px 1px 0, rgb(0 255 255) 2px 2px 0, rgb(0 255 255) 3px 3px 0, rgb(0 255 255) 4px 4px 0, rgb(0 255 255) 5px 5px 0, rgb(0 255 255) 6px 6px 0, rgb(0 255 255) 7px 7px 0, rgb(0 255 255) 8px 8px 0, rgb(0 255 255) 9px 9px 0, rgb(0 255 255) 10px 10px 0
 	}
+	.header .site-description {
+      font-size: 40px
+    }
+	.header-icons .icon {
+      width: 35px;
+      height: 35px;
+      font-size: 35px
+    }
+	.header-links .link {
+      font-size: 20px
+    }
 	.header-links {
 	  margin: 10px
 	}
