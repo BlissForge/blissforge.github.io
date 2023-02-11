@@ -47,10 +47,12 @@
   }
   @media (min-width: 320px) {
     #particles-js {
-      min-height: 100%
+      min-height: 100vh;
+	  min-height: -webkit-fill-available
     }
     #particles-js .particles-js-canvas-el {
-      height: 100%!important
+      height: 100vh!important
+	  height: -webkit-fill-available!important
     }
     .header {
 	  -webkit-transform: translate(-50%, -50%);
