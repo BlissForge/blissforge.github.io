@@ -3386,8 +3386,8 @@ sub,sup{
     top:50%;
     left:50%;
     margin:0 auto;
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%)
+    /*-webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)*/
 }
 .header .site-title{
     /*font-size:50px;*/
@@ -3472,8 +3472,8 @@ sub,sup{
     transform-style:preserve-3d;
     top:50%;
     left:50%;
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%);
+    /*-webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);*/
     width:100px;
     height:100px;
     fill:#fff;
