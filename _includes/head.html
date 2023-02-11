@@ -6,12 +6,6 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <script>
-  // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-  let vh = window.innerHeight * 0.01;
-  // Then we set the value in the --vh custom property to the root of the document
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-  </script>
   <style>
   .header .site-title {
     display: flex;
@@ -52,14 +46,6 @@
     }
   }
   @media (min-width: 320px) {
-    #particles-js {
-      min-height: 100vh;
-	  min-height: calc(var(--vh, 1vh) * 100)
-    }
-    #particles-js .particles-js-canvas-el {
-      height: 100vh!important
-	  height: calc(var(--vh, 1vh) * 100)!important
-    }
     .header {
 	  -webkit-transform: translate(-50%, -50%);
 	  transform: translate(-50%, -50%)
@@ -99,12 +85,6 @@
     }
   }
   @media (min-width: 813px) {
-    #particles-js {
-      min-height: 100vh
-    }
-    #particles-js .particles-js-canvas-el {
-      height: 100vh!important
-    }
 	.header {
 	  -webkit-transform: translate(-50%, -50%);
 	  transform: translate(-50%, -50%)
